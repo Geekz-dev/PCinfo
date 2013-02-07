@@ -37,7 +37,7 @@ foreach ($params as $key => $value) {
      $arr[] = $key.'='.$value;
 }
 //&で区切ってエンコーディング
-$url = "http://".urlencode(RECEIVING.'?'.join('&', $arr));
+$url = "http://".RECEIVING.'?'.urlencode(join('&', $arr));
 
 
 ?>
