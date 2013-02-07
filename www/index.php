@@ -17,11 +17,11 @@ if ($share == "mobile" ) {
     require_once(TEMPLATE_MOBILE.'index.php');
 } else {
 
-if ($os == "iOS" || $os == "Android") {
-    require_once(TEMPLATE_MOBILE.'index.php');
-} else {
-    require_once(TEMPLATE_PC.'index.php');
-}
+    if ($os == "iOS" || $os == "Android") {
+        require_once(TEMPLATE_MOBILE.'index.php');
+    } else {
+        require_once(TEMPLATE_PC.'index.php');
+    }
 
 }
 
