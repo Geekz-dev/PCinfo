@@ -4,4 +4,8 @@
         <title>Geekz Web Development</title>
         <url>http://www.geekz-dev.net/</url>
     </link>
+    <link>
+        <title>PCinfo</title>
+        <url>http://pcinfo.geekz-dev.net/</url>
+    </link>
 </config>
